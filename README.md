@@ -3,6 +3,10 @@ This is an angular 1.x provider that provides catch-all error handling for ajax 
 
 Alternatively, this angular provider can be used at **config** time while the app is bootstrapping in order to catch all http errors and handle them in one centralized location.
 
+# Installation
+
+`npm install angular-http-error-handler`
+
 # Usage
 
 ```js
@@ -17,10 +21,7 @@ app.config(['HttpErrorProvider', function(HttpErrorProvider) {
 
 The function provided to `useHandler` can be used to handle your custom error logic and display a message to your user via a library of your choosing (i.e. toastr, SweetAlert, alertify, jQuery growl, etc).
 
-# Installation
-
-Todo: add to npm
 
 # Dependencies
 
-- Angular 1.x
+- \>= Angular 1.2.x
