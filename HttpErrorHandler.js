@@ -13,14 +13,14 @@
                     handler = customHandler;
                 }
 
-                $httpProvider.interceptors.push(function ($q) {
+                $httpProvider.interceptors.push(['$q', function ($q) {
                     return {
                         'responseError': function (rejection) {
                             handler(rejection);
                             return $q.reject(rejection);
                         }
                     }
-                });
+                }]);
             }
 
             this.$get = function () {
