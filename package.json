@@ -1,0 +1,26 @@
+{
+  "name": "angular-http-error-handler",
+  "version": "1.0.0",
+  "description": "Angular 1.x $http ajax catch-all error handling provider.",
+  "main": "HttpErrorHandler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrandonClapp/angular-http-error-handler.git"
+  },
+  "keywords": [
+    "angular",
+    "http",
+    "ajax",
+    "error",
+    "handling"
+  ],
+  "author": "Brandon Clapp <brandonclapp@outlook.com> (http://brandonclapp.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BrandonClapp/angular-http-error-handler/issues"
+  },
+  "homepage": "https://github.com/BrandonClapp/angular-http-error-handler#readme"
+}
